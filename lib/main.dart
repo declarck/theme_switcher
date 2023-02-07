@@ -24,10 +24,9 @@ class MyApp extends StatelessWidget {
               : ThemeData(
                   brightness: Brightness.light,
                   primaryColor: Colors.green,
-                  primarySwatch: Colors.green
-                ),
+                  primarySwatch: Colors.green),
           debugShowCheckedModeBanner: false,
-          home:const HomePage(),
+          home: const HomePage(),
         );
       }),
     );
